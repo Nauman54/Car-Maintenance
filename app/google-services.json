@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "629972186474",
+    "firebase_url": "https://car--maintenance-default-rtdb.firebaseio.com",
+    "project_id": "car--maintenance",
+    "storage_bucket": "car--maintenance.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629972186474:android:e9b0629bf248989c52a113",
+        "android_client_info": {
+          "package_name": "com.example.carmaintenance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629972186474-1g91s1b5b70dcf1395uu10hos3teffb6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBu3MfapBGk5XehbbfEcKnaPfSz5c8q4HI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629972186474-1g91s1b5b70dcf1395uu10hos3teffb6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

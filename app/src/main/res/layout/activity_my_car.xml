@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyCar"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/black"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/MyCar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Car"
+            android:textColor="@color/white"
+            android:textSize="50dp"
+            android:textStyle="italic"
+            android:textAllCaps="true"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/img_icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/car_icon"
+            />
+
+        <TextView
+            android:id="@+id/MyCar_Name"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/img_icon"
+            android:layout_marginLeft="40dp"
+            android:hint="Name"
+            android:textStyle="bold"
+            android:textSize="23dp"/>
+
+        <TextView
+            android:id="@+id/MyCar_Year"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/MyCar_Name"
+            android:layout_marginLeft="00dp"
+            android:hint="Year"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/MyCar_Brand"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/img_icon"
+            android:layout_below="@id/MyCar_Name"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+            android:hint="Brand"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/MyCar_Model"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/img_icon"
+            android:layout_below="@id/MyCar_Brand"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+            android:hint="Model"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/MyCar_LicensePlate"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/MyCar_Model"
+            android:layout_below="@id/MyCar_Brand"
+            android:layout_marginTop="5dp"
+            android:hint="Lis-Plate"
+            android:textSize="20dp"
+            android:gravity="center"
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="0dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/MyCar_btn_Services"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Services"
+            android:textSize="14dp"/>
+
+        <Button
+            android:id="@+id/MyCar_btn_TotalExpenses"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Total Expenses"
+            android:textSize="14dp"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </ScrollView>
+
+
+</LinearLayout>

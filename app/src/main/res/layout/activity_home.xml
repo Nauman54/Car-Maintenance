@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/black"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/Home_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:textColor="@color/white"
+            android:textSize="50dp"
+            android:textStyle="italic"
+            android:textAllCaps="true"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/Home_btn_AddCar"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:textColor="@color/white"
+            android:text="ADD Car"
+            android:textAllCaps="true"
+            android:textStyle="italic"
+            android:textSize="40dp"
+            android:layout_centerHorizontal="true"
+            />
+
+        <Button
+            android:id="@+id/Home_btn_MyCar"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:textColor="@color/white"
+            android:text="My Car"
+            android:textAllCaps="true"
+            android:textStyle="italic"
+            android:textSize="40dp"
+            android:layout_below="@id/Home_btn_AddCar"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>
