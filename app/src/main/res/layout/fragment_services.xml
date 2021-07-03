@@ -14,8 +14,6 @@
             android:layout_height="wrap_content"
             android:hint="Date(MM-DD-YYYY)"
             android:textSize="20dp"
-            android:ems="10"
-            android:inputType="date"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"/>
